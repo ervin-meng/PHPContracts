@@ -1,8 +1,8 @@
 {
-    "name": "ervin-meng/php-contracts-oauth2",
-    "description" : "OAuth2协议",
+    "name": "ervin-meng/php-contracts",
+    "description" : "抽象",
     "type": "application",
-    "keywords": ["php","oauth2","contracts"],
+    "keywords": ["php","contracts"],
     "license": "MIT",
     "authors": [
         {
@@ -13,9 +13,12 @@
     "require": {
         "php": ">=7.2.0"
     },
+    "replace": {
+        "ervin-meng/php-contracts-oauth2": "self.version",
+    },
     "autoload": {
         "psr-4": {
-            "PHPContracts\\oauth2\\": ""
+            "PHPContracts\\": ""
         }
     }
 }
