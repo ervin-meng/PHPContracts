@@ -1,6 +1,6 @@
 {
     "name": "ervin-meng/php-contracts",
-    "description" : "抽象",
+    "description" : "规约",
     "type": "application",
     "keywords": ["php","contracts"],
     "license": "MIT",

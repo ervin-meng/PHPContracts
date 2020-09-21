@@ -10,7 +10,7 @@ interface RequestEntityInterface
     public function getAppSecret();
     public function getResponseType();
     public function getRedirectUri();
-    public function setScope(string $scope);
+    public function setScope($scope);
     public function getScope();
     public function getCode();
     public function getState();
